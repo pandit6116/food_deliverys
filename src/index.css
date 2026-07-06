@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slideIn {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slideUp {
+    animation: slideUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes float1 {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    25% {
+        transform: translateY(-20px) translateX(10px);
+    }
+    50% {
+        transform: translateY(-40px) translateX(-10px);
+    }
+    75% {
+        transform: translateY(-20px) translateX(15px);
+    }
+}
+
+@keyframes float2 {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    25% {
+        transform: translateY(20px) translateX(-15px);
+    }
+    50% {
+        transform: translateY(40px) translateX(10px);
+    }
+    75% {
+        transform: translateY(20px) translateX(-20px);
+    }
+}
+
+@keyframes float3 {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+    }
+    50% {
+        transform: translateY(-15px) scale(1.1);
+    }
+}
+
+.animate-float1 {
+    animation: float1 6s ease-in-out infinite;
+}
+
+.animate-float2 {
+    animation: float2 8s ease-in-out infinite;
+}
+
+.animate-float3 {
+    animation: float3 4s ease-in-out infinite;
+}
