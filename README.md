@@ -32,8 +32,8 @@ Before you begin, make sure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/pandit6116/CAPSTONE_PROJECT.git
-cd CAPSTONE_PROJECT/food_deliverys
+git clone https://github.com/pandit6116/food_deliverys.git
+cd food_deliverys
 ```
 
 ### Step 2: Install Dependencies
@@ -121,13 +121,7 @@ Runs the production build locally before deploying.
 
 ## Deployment
 
-### Deploy to Vercel (Recommended for Vite projects)
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your GitHub repository
-4. Vercel will auto-detect Vite configuration
-5. Click Deploy
+<!-- Vercel instructions removed — not used in this project. -->
 
 ### Deploy to Netlify
 
@@ -167,7 +161,7 @@ This project is open source and available for educational purposes.
 
 ## Contact & Support
 
-For questions or issues, please open an issue on [GitHub](https://github.com/pandit6116/CAPSTONE_PROJECT/issues).
+For questions or issues, please open an issue on [GitHub](https://github.com/pandit6116/food_deliverys/issues).
 
 ---
 
