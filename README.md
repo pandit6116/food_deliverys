@@ -119,10 +119,6 @@ Runs the production build locally before deploying.
 5. **Checkout** - Proceed to payment modal to complete your order
 6. **Success** - View order confirmation popup
 
-## Deployment
-
-<!-- Vercel instructions removed — not used in this project. -->
-
 ### Deploy to Netlify
 
 1. Build the project: `npm run build`
